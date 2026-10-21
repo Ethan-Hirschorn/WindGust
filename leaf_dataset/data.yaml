@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Leaf']
+
+roboflow:
+  workspace: sumtateh
+  project: leaf-segmentation-av7bu
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sumtateh/leaf-segmentation-av7bu/dataset/3
